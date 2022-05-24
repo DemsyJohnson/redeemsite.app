@@ -1,0 +1,186 @@
+/* General styles for the web! */
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import '.footer.css';
+@import '.nav.css';
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.max-width
+{
+    max-width: 1200px;
+    padding: 0 65px;
+    margin: auto;
+}
+body
+{
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #fff;
+    width: 100%;
+}
+section{
+  padding: 15px 0;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.home
+{
+    display: flex;
+    height: 100vh;
+    color: #fff;
+    background-image: url('../img/daddy3.png');
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+ .home .max-width
+{
+    width: 100%;
+    display: flex;
+}
+
+.home .max-width .row
+{
+    margin-right: 0;
+}
+
+.home .max-width .text-2
+{
+    font-size: 45px;
+    font-weight: 500px;
+    margin-left: -2.6px;
+} 
+.home .home-content .text-3{
+  font-size: 40px;
+  margin: 5px 0;
+}
+
+.home .home-content .text-1
+{
+    font-size: 27px;
+}
+
+/* responsive media query start */
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 35px;
+    }
+}
+@media (max-width: 947px){
+    .home .home-content .text-2
+    .tele .tele-content .text-4 img
+    {
+        font-size: 70px;
+    }
+    .home .home-content .text-3{
+        font-size: 35px;
+    }
+    .home .home-content a
+    .tele .image .tele-content a
+    {
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+    .max-width{
+        max-width: 930px;
+    }
+}
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 18px;
+    }
+    .home .home-content .text-2
+    .tele .image .tele-content .text-4
+    {
+        font-size: 60px;
+    }
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
+    .home .home-content a
+    .tele .tele-content a img
+    {
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .home .home-content .text-2
+    .tele .image .tele-content .text-4
+    {
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+}
+/* Television section */
+.tele{
+    font-size: 25px;
+    font-weight: 459px;
+    margin-left: 3px;
+    font-family: sans-serif;
+    display: flex;
+    height: 20vh;
+    color: #111;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    border-radius: 10px;
+  }
+  .tele .max-width .image{
+    width: 100%;
+    display: flex;
+    margin-right: 0;
+  }
+  .tele .tele-content a{
+    display: inline-block;
+    background: rgb(6, 78, 235);
+    color: #fff;
+    font-size: 22px;
+    padding: 12px 35px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 50px;
+    border: 1px solid rgb(6, 78, 235);
+  }
+  .tele .tele-content a:hover{
+    color: #fff;
+    background: #222;
+    border: none;
+  }
+  .tele .tele-content .text-4{
+  
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: rgb(18, 15, 14);
+  }
+
+
+
+
+

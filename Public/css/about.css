@@ -1,0 +1,129 @@
+/* General styles for the web! */
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import '.footer.css';
+@import '.nav.css';
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.max-width
+{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+body
+{
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #111;
+    width: 100%;
+    background-color: rgb(69, 101, 216);
+}
+section{
+  padding: 35px 0;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.home
+{
+    display: flex;
+    height: 100vh;
+    color: #fff;
+    background-image: url('../img/daddy2.png');
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+ .home .max-width
+{
+    width: 100%;
+    display: flex;
+}
+
+.home .max-width .row
+{
+    margin-right: 0;
+}
+
+.home .max-width .text-2
+{
+    font-size: 45px;
+    font-weight: 500px;
+    margin-left: -3px;
+} 
+.home .home-content .text-3{
+  font-size: 40px;
+  margin: 5px 0;
+}
+
+.home .home-content .text-1
+{
+    font-size: 27px;
+}
+
+.home .home-content a{
+    display: inline-block;
+    color: #fff;
+    background: rgb(6, 78, 235);
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 50px;
+    font-weight: 400;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover
+{
+    color: #fff;
+    background: rgb(8, 130, 187);
+}
+
+
+.container_about{
+  font-size: 25px;
+  font-weight: 500px;
+  margin-left: 3px;
+  font-family: sans-serif;
+  display: inline-block;
+  height: 100vh;
+  color: #111;
+  min-height: 500px;
+  margin: 15px;
+  border-radius: 10px;
+}
+.container_about .header_about{
+  color: #111;
+  align-items: center;
+  font-size: 40px;
+  justify-content: center;
+  margin: 5px;  
+}
+.container_about .body{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-evenly;
+  align-items: center;
+}
